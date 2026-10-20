@@ -31,7 +31,7 @@ ROS 2 Humble · ros2_control · Gazebo Fortress (`ros_gz`) · MediaPipe · OpenC
 
 ```bash
 mkdir -p ~/ur5_ws/src && cd ~/ur5_ws/src
-git clone https://github.com/MechaMind-Labs/UR5_PICK_AND_PLACE_MEDIAPIPE_ROS2.git .
+git clone https://github.com/MechaMind-Labs/ur5-gesture-pick-and-place.git .
 cd ~/ur5_ws && rosdep install --from-paths src --ignore-src -r -y
 pip install mediapipe opencv-python
 colcon build --symlink-install && source install/setup.bash
@@ -41,11 +41,11 @@ ros2 launch ur5_bringup simulation.launch.py   # Gazebo + controllers + hand det
 
 ## Related
 
-- [SCARA conveyor cell](https://github.com/Curious-Utkarsh/ROS2_SCARA_WS) — two-hand MediaPipe teleop on a real arm
-- [Gesture Controlled Robot](https://github.com/MechaMind-Labs/MicroROS_Gesture_Controlled_Robot_MPU6050) — gesture control with an IMU and micro-ROS
+- [SCARA conveyor cell](https://github.com/Curious-Utkarsh/scara-pick-and-place) — two-hand MediaPipe teleop on a real arm
+- [Gesture Controlled Robot](https://github.com/MechaMind-Labs/microros-gesture-robot) — gesture control with an IMU and micro-ROS
 - [Earlier UR5 project: ArUco + MoveIt pick-and-place (video)](https://youtu.be/_vO71pkmfY4)
-- [Franka colour sorting](https://github.com/MechaMind-Labs/Franka_Panda_Color_Sorting_Robot) — autonomous vision pick-and-place
-- [Dual-Panda tic-tac-toe](https://github.com/MechaMind-Labs/ROS2_Dual_Franka_Panda_TicTacToe_AI_Vision) — two arms taking turns with MoveIt 2
+- [Franka colour sorting](https://github.com/MechaMind-Labs/franka-color-sorting-robot) — autonomous vision pick-and-place
+- [Dual-Panda tic-tac-toe](https://github.com/MechaMind-Labs/dual-franka-tic-tac-toe) — two arms taking turns with MoveIt 2
 
 ---
 [MechaMind Labs](https://www.mechamindlabs.com/) · [YouTube](https://www.youtube.com/@MechaMindLabs) · [LinkedIn](https://www.linkedin.com/company/mechamindlabs/)
