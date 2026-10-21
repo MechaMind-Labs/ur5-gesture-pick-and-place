@@ -43,7 +43,7 @@ ros2 launch ur5_bringup simulation.launch.py   # Gazebo + controllers + hand det
 
 - [SCARA conveyor cell](https://github.com/Curious-Utkarsh/scara-pick-and-place) — two-hand MediaPipe teleop on a real arm
 - [Gesture Controlled Robot](https://github.com/MechaMind-Labs/microros-gesture-robot) — gesture control with an IMU and micro-ROS
-- [Earlier UR5 project: ArUco + MoveIt pick-and-place (video)](https://youtu.be/_vO71pkmfY4)
+- [Earlier UR5 work: ArUco + MoveIt pick-and-place, an e-Yantra competition task (video)](https://youtu.be/_vO71pkmfY4)
 - [Franka colour sorting](https://github.com/MechaMind-Labs/franka-color-sorting-robot) — autonomous vision pick-and-place
 - [Dual-Panda tic-tac-toe](https://github.com/MechaMind-Labs/dual-franka-tic-tac-toe) — two arms taking turns with MoveIt 2
 
