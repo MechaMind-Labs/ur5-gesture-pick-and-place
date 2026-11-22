@@ -48,4 +48,4 @@ ros2 launch ur5_bringup simulation.launch.py   # Gazebo + controllers + hand det
 - [Dual-Panda tic-tac-toe](https://github.com/MechaMind-Labs/dual-franka-tic-tac-toe) — two arms taking turns with MoveIt 2
 
 ---
-[MechaMind Labs](https://www.mechamindlabs.com/) · [YouTube](https://www.youtube.com/@MechaMindLabs) · [LinkedIn](https://www.linkedin.com/company/mechamindlabs/)
+[MechaMind Labs](https://github.com/MechaMind-Labs) · [YouTube](https://www.youtube.com/@MechaMindLabs) · [LinkedIn](https://www.linkedin.com/company/mechamindlabs/)
